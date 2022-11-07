@@ -1,6 +1,7 @@
 site_name: philip.cammarata.me
-theme: readthedocs
+theme:
+  name: material
+  palette:
+    scheme: slate
 markdown_extensions:
-  - pymdownx.highlight:
-      use_pygments: true
   - pymdownx.superfences
