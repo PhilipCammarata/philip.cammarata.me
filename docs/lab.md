@@ -19,7 +19,13 @@ msiexec /i WindowsAdminCenter.msi /qn /L*v log.txt SME_PORT=443 SSL_CERTIFICATE_
 SConfig is great tool to perform an initial server configuration but doesn't scale well so lets replace it with PowerShell.
 
 ``` powershell
+# set the hostname (will require a reboot)
 Rename-Computer -NewName OCTOPUS
+
+# create a local administrator (will prompt for password)
+New-LocalUser -Name "pcammarata" | Add-LocalGroupMember -Group "Administrators"
+
+# TODO: find the PowerShell commands to Windows Update settings.
 ```
 
 ## Volume Setup
