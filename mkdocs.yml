@@ -8,3 +8,5 @@ markdown_extensions:
       linenums: true
       auto_title: true
   - pymdownx.superfences
+  - pymdownx.snippets:
+      url_download: true
