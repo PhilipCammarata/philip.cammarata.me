@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Home Lab
+# Hyper-V Lab
 
 My home lab consistats of a single [Hyper-V Server 2019](https://www.microsoft.com/en-us/evalcenter/evaluate-hyper-v-server-2019) hosted on an old MacMini.
 
