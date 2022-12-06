@@ -7,12 +7,15 @@ hide:
 
 My home lab consistats of a single [Hyper-V Server 2019](https://www.microsoft.com/en-us/evalcenter/evaluate-hyper-v-server-2019) hosted on an old MacMini.
 
-I tend to work on a project or learn a skill and then wipe my environment so I can start fresh on something new which means I reinstall operating systems a lot.
+I try to script out every action I possibly can to keep my work repeatable and maintain a history of my actions.  These scripts represent some of that work.
 
-This is my post-install script I run when I first boot my Hyper-V server.
+## PowerShell Scripts
 
-## Post-install Script 
-
-``` powershell
---8<-- "https://raw.githubusercontent.com/PhilipCammarata/scripts/main/lab_postinstall.ps1"
+``` powershell title="New-MSSAVM"
+--8<-- "https://raw.githubusercontent.com/PhilipCammarata/scripts/main/new-mssavm.ps1"
 ```
+
+``` powershell title="Invoke-PostInstall"
+--8<-- "https://raw.githubusercontent.com/PhilipCammarata/scripts/main/invoke-postinstall.ps1"
+```
+
