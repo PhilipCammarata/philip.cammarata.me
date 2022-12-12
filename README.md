@@ -1,2 +1,2 @@
 # philip.cammarata.me
-Personal homepage
+My personal homepage
