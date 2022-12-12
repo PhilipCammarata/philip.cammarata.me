@@ -12,10 +12,10 @@ I try to script out every action I possibly can to keep my work repeatable and m
 ## PowerShell Scripts
 
 ``` powershell title="New-MSSAVM"
---8<-- "https://raw.githubusercontent.com/PhilipCammarata/scripts/main/new-mssavm.ps1"
+--8<-- "https://raw.githubusercontent.com/PhilipCammarata/scripts/main/New-MSSAVM.ps1"
 ```
 
-``` powershell title="Invoke-PostInstall"
---8<-- "https://raw.githubusercontent.com/PhilipCammarata/scripts/main/invoke-postinstall.ps1"
+``` powershell title="Invoke-MSSAPostInstall"
+--8<-- "https://raw.githubusercontent.com/PhilipCammarata/scripts/main/Invoke-MSSAPostInstall.ps1"
 ```
 
